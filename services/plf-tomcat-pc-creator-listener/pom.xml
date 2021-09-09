@@ -44,15 +44,15 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
       <exclusions>
         <exclusion>
           <artifactId>servlet-api</artifactId>
-          <groupId>javax.servlet</groupId>
+          <groupId>jakarta.servlet</groupId>
         </exclusion>
         <exclusion>
           <artifactId>common-logging</artifactId>
           <groupId>org.gatein.common</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>javax.servlet-api</artifactId>
-          <groupId>javax.servlet</groupId>
+          <artifactId>jakarta.servlet-api</artifactId>
+          <groupId>jakarta.servlet</groupId>
         </exclusion>
       </exclusions>
     </dependency>

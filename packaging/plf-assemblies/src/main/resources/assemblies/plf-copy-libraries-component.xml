@@ -51,9 +51,9 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
         <!-- These old versions of eXo portal are in conflict with new ones under org.exoplatform.gatein.portal -->
         <exclude>org.exoplatform.portal:*:*</exclude>
         <!-- Servlet API are provided by the app server. It shouldn't come from a project -->
-        <exclude>javax.servlet:*</exclude>
+        <exclude>jakarta.servlet:*</exclude>
         <exclude>com.google.gwt:gwt-user:*</exclude>
-        <exclude>javax.servlet.jsp:*</exclude>
+        <exclude>jakarta.servlet.jsp:*</exclude>
         <!-- Testing stuffs should never come here -->
         <exclude>junit:*</exclude>
         <exclude>org.testng:*</exclude>
