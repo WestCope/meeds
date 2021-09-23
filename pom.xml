@@ -341,7 +341,6 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
                         <!-- Testing stuffs should never come here -->
                         <exclude>junit:*</exclude>
                         <exclude>org.testng:*</exclude>
-                        <exclude>org.exoplatform.tool:exo.tool.framework.junit</exclude>
                         <exclude>org.jmock:*</exclude>
                         <exclude>jmock:*</exclude>
                         <exclude>org.mockito:*</exclude>
